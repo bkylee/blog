@@ -52,7 +52,7 @@ resource "azurerm_linux_virtual_machine" "terraform_test_VM" {
     sku       = "22_04-lts"
     version   = "latest"
   }
-} 
+}
 
 resource "azurerm_network_interface" "express_nic" {
   name                = "Express-NIC"
